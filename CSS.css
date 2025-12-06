@@ -497,3 +497,35 @@ html {
     scroll-behavior: smooth;
 }
 
+
+
+
+
+.contact-form button {
+  background: #ff4b4b;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.contact-form button:hover {
+  background: #d83a3a;  /* darker color on hover */
+  transform: scale(1.05); /* slight zoom */
+}
+
+
+
+.social-icons i {
+    font-size: 35px;
+    color: white;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons i:hover {
+    transform: scale(1.2);
+    color: #6c63ff;
+}
+
