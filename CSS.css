@@ -462,3 +462,38 @@
     background-color: #5b82f5;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    position: fixed;     /* stays on top */
+    top: 0;
+    width: 100%;
+    background-color: black;  /* so it doesn’t look transparent */
+    z-index: 1000;      /* stays above everything */
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;  /* same height as nav */
+}
+html {
+    scroll-behavior: smooth;
+}
+
